@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "chat_helper",
+  "version": "1.0a",
+  "name": "Chat Helper",
+  "description": "Чат хелпер для модераторов чата",
+  "authors": [
+    "Даниил - Raid"
+  ],
+  "contact": {
+    "Raid (TG)": "https://t.me/RaidPisunF6"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.daniel.raiddev.chat.Main"
+    ]
+  },
+  "mixins": [
+    "mod.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": "0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}

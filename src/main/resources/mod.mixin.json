@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.daniel.raiddev.chat.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChatHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
